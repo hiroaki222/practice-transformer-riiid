@@ -16,6 +16,7 @@ asttokens==2.4.1
     # via stack-data
 comm==0.2.2
     # via ipykernel
+    # via ipywidgets
 debugpy==1.8.7
     # via ipykernel
 decorator==5.1.1
@@ -30,6 +31,9 @@ ipykernel==6.29.5
     # via practice-transformer-riiid
 ipython==8.28.0
     # via ipykernel
+    # via ipywidgets
+ipywidgets==8.1.5
+    # via practice-transformer-riiid
 jedi==0.19.1
     # via ipython
 jinja2==3.1.4
@@ -38,9 +42,12 @@ joblib==1.4.2
     # via scikit-learn
 jupyter-client==8.6.3
     # via ipykernel
+    # via practice-transformer-riiid
 jupyter-core==5.7.2
     # via ipykernel
     # via jupyter-client
+jupyterlab-widgets==3.0.13
+    # via ipywidgets
 markupsafe==3.0.2
     # via jinja2
 matplotlib-inline==0.1.7
@@ -113,6 +120,7 @@ traitlets==5.14.3
     # via comm
     # via ipykernel
     # via ipython
+    # via ipywidgets
     # via jupyter-client
     # via jupyter-core
     # via matplotlib-inline
@@ -122,3 +130,5 @@ tzdata==2024.2
     # via pandas
 wcwidth==0.2.13
     # via prompt-toolkit
+widgetsnbextension==4.0.13
+    # via ipywidgets
